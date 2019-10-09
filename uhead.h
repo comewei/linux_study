@@ -11,7 +11,7 @@ struct arg{
 
 void show(int *a,int n);
 void urand(int *a,int n);
-void operate(struct arg * avsum,int *a);
+void operate(struct arg * avsum);
 void qsort1(int* a);
 
 

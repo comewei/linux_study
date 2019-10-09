@@ -1,10 +1,14 @@
 #include "uhead.h"
 
 void show(int *a,int n){
+	FILE *fp;
+	fp=fopen("a.txt","w");
    int i=0;
    for(i=0;i<100;i++){
-   printf("a[%d]=%d,\n",i,a[i]);   
+   printf("a[%d]=%d,\n",i,a[i]);  
+	fprintf(fp,"%d\n",a[i]); 
  }
+	fclose(fp);
 }
 
 

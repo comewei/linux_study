@@ -6,11 +6,11 @@ int main()
 	struct arg avsum;
    urand(a,100);
    show(a,100);
-   operate(&avsum,a);
+   operate(&avsum);
 	begin=clock();
 	qsort1(&a);
 	end=clock();
 	show(a,100);
-	printf("%lf\n",(double)(end-begin)/CLOCKS_PER_SEC);
+	printf("%lfms\n",1000*(double)(end-begin)/CLOCKS_PER_SEC);
 	return 0;
 }
