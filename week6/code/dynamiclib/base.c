@@ -1,4 +1,4 @@
-#include "dynamiclib.h"
+#include "dylib.h"
 
 void initArray(int *a,int n)
 {

@@ -1,5 +1,5 @@
 一、运行时动态链接
-1.动态编译
+1.运行时动态编译
 gcc -o ldtextlocal ldtextlocal.c ./libdylib.so
 
 2.在上一次目录建立exam文件夹，
@@ -11,6 +11,7 @@ gcc   ldtextremote -o  dytestremote.c  ../dynamiclib/libdylib.so -I ../dynamicli
 
 
 二、装载时动态链接
+
 dytestrt.c
 		应该加入#include <dlfcn.h>
 		加入函数指针	void *hd; void (*f1)();	int (*f2)(),(*f3)();

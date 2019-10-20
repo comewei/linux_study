@@ -4,9 +4,16 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+LIB_CACULATE_PATH	dynamiclib/dytestrt.c	3;"	d	language:C	file:
+initArray	dynamiclib/base.c	/^void initArray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 initArray	staticlib/aoperand.c	/^void initArray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+main	dynamiclib/dytestrt.c	/^int main(int argc,char **argv){$/;"	f	language:C	signature:(int argc,char **argv)
+main	exam/remotedytest.c	/^int main()$/;"	f	language:C
 main	exam/remotetest.c	/^int main()$/;"	f	language:C
 main	staticlib/localtest.c	/^int main()$/;"	f	language:C
+max	dynamiclib/aoprand.c	/^int max(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 max	staticlib/base.c	/^int max(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+showArray	dynamiclib/base.c	/^void showArray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 showArray	staticlib/aoperand.c	/^void showArray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+sum	dynamiclib/aoprand.c	/^int sum(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 sum	staticlib/base.c	/^int sum(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
