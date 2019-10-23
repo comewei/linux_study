@@ -4,9 +4,34 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+LIB_CACULATE_PATH	week6/code/dynamiclib/dytestrt.c	3;"	d	language:C	file:
+LIB_CACULATE_PATH	week6/code/test/dytestrt.c	3;"	d	language:C	file:
+RAND_MAXs	week4/code/uhead.h	5;"	d	language:C++
+arg	week4/code/uhead.h	/^struct arg{$/;"	s	language:C++
+ave	week4/code/uhead.h	/^	float ave;$/;"	m	language:C++	struct:arg
+buf	week7/code/fork.c	/^char buf[]={"write to stdout\\n"};$/;"	v	language:C
+initArray	week6/code/dynamiclib/base.c	/^void initArray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 initArray	week6/code/staticlib/aoperand.c	/^void initArray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+main	week4/code/main.c	/^int main()$/;"	f	language:C
+main	week6/code/dynamiclib/dytestrt.c	/^int main()$/;"	f	language:C
+main	week6/code/dynamiclib/dytestrt.c	/^int main(int argc,char **argv){$/;"	f	language:C	signature:(int argc,char **argv)
+main	week6/code/exam/remotedytest.c	/^int main()$/;"	f	language:C
 main	week6/code/exam/remotetest.c	/^int main()$/;"	f	language:C
 main	week6/code/staticlib/localtest.c	/^int main()$/;"	f	language:C
+main	week6/code/test/dytestremote.c	/^int main()$/;"	f	language:C
+main	week6/code/test/dytestrt.c	/^int main(int argc,char **argv){$/;"	f	language:C	signature:(int argc,char **argv)
+main	week7/code/buffer.c	/^int main(int argc, char *argv[])$/;"	f	language:C	signature:(int argc, char *argv[])
+main	week7/code/fork.c	/^int main(){$/;"	f	language:C
+main	week7/code/test.cpp	/^int main()$/;"	f	language:C++	signature:()
+main	week7/filehomework/file.c	/^int main()$/;"	f	language:C
+max	week6/code/dynamiclib/aoprand.c	/^int max(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 max	week6/code/staticlib/base.c	/^int max(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+operate	week4/code/fun1.c	/^void operate(struct arg *avsum){$/;"	f	language:C	signature:(struct arg *avsum)
+qsort1	week4/code/qsort.c	/^void qsort1(int* a)$/;"	f	language:C	signature:(int* a)
+show	week4/code/fun2.c	/^void show(int *a,int n){$/;"	f	language:C	signature:(int *a,int n)
+showArray	week6/code/dynamiclib/base.c	/^void showArray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 showArray	week6/code/staticlib/aoperand.c	/^void showArray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+sum	week4/code/uhead.h	/^	int sum;$/;"	m	language:C++	struct:arg
+sum	week6/code/dynamiclib/aoprand.c	/^int sum(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 sum	week6/code/staticlib/base.c	/^int sum(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
+urand	week4/code/fun2.c	/^void urand(int *a,int n){$/;"	f	language:C	signature:(int *a,int n)

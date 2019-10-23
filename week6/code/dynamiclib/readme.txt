@@ -1,6 +1,7 @@
 一、运行时动态链接
 1.运行时动态编译
-gcc -o ldtextlocal ldtextlocal.c ./libdylib.so
+gcc -shared -fPIC -o libdylib.so aoprand.c base.c
+gcc -o ldtextlocal ldtextlocal.c ./libdylib.so 
 
 2.在上一次目录建立exam文件夹，
 mkdir exam

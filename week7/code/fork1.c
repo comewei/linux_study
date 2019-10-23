@@ -8,7 +8,7 @@ int main(){
 	pid_t id;
 	if(write(STDOUT_FILENO,buf,sizeof(buf)-1)!=sizeof(buf)-1)
 		perror("can'write");
-	printf("printf\n");
+	printf("printf");
 	id=fork();
 	if(id<0)
 	perror("fork error");
