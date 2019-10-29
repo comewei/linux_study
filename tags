@@ -10,20 +10,29 @@ RAND_MAXs	week4/code/uhead.h	5;"	d	language:C++
 arg	week4/code/uhead.h	/^struct arg{$/;"	s	language:C++
 ave	week4/code/uhead.h	/^	float ave;$/;"	m	language:C++	struct:arg
 buf	week7/code/fork.c	/^char buf[]={"write to stdout\\n"};$/;"	v	language:C
+buf	week7/code/fork1.c	/^char buf[]={"write to stdout\\n"};$/;"	v	language:C
+buf	week7/code/fork2.c	/^char buf[]={"write to stdout\\n"};$/;"	v	language:C
+globa	week7/filehomework/file1.c	/^int globa = 4;$/;"	v	language:C
+globa	week7/simplefork.c	/^int globa = 4;$/;"	v	language:C
+globa	week7/simplefork/simplefork.c	/^int globa = 4;$/;"	v	language:C
 initArray	week6/code/dynamiclib/base.c	/^void initArray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 initArray	week6/code/staticlib/aoperand.c	/^void initArray(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 main	week4/code/main.c	/^int main()$/;"	f	language:C
 main	week6/code/dynamiclib/dytestrt.c	/^int main()$/;"	f	language:C
 main	week6/code/dynamiclib/dytestrt.c	/^int main(int argc,char **argv){$/;"	f	language:C	signature:(int argc,char **argv)
-main	week6/code/exam/remotedytest.c	/^int main()$/;"	f	language:C
 main	week6/code/exam/remotetest.c	/^int main()$/;"	f	language:C
 main	week6/code/staticlib/localtest.c	/^int main()$/;"	f	language:C
 main	week6/code/test/dytestremote.c	/^int main()$/;"	f	language:C
 main	week6/code/test/dytestrt.c	/^int main(int argc,char **argv){$/;"	f	language:C	signature:(int argc,char **argv)
 main	week7/code/buffer.c	/^int main(int argc, char *argv[])$/;"	f	language:C	signature:(int argc, char *argv[])
 main	week7/code/fork.c	/^int main(){$/;"	f	language:C
+main	week7/code/fork1.c	/^int main(){$/;"	f	language:C
+main	week7/code/fork2.c	/^int main(){$/;"	f	language:C
 main	week7/code/test.cpp	/^int main()$/;"	f	language:C++	signature:()
 main	week7/filehomework/file.c	/^int main()$/;"	f	language:C
+main	week7/filehomework/file1.c	/^int main(void)$/;"	f	language:C	signature:(void)
+main	week7/simplefork.c	/^int main (void )$/;"	f	language:C	signature:(void )
+main	week7/simplefork/simplefork.c	/^int main (void )$/;"	f	language:C	signature:(void )
 max	week6/code/dynamiclib/aoprand.c	/^int max(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 max	week6/code/staticlib/base.c	/^int max(int *a,int n)$/;"	f	language:C	signature:(int *a,int n)
 operate	week4/code/fun1.c	/^void operate(struct arg *avsum){$/;"	f	language:C	signature:(struct arg *avsum)
