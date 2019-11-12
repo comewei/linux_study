@@ -3,10 +3,10 @@ int main(int argc,char *chgv[],char *env[])
 {
 	extern char **environ;
 	int i=0;
-	for(;env[i];i++)
+	while(NULL!=environ[i])
 {
 	printf("%s\n",environ[i]);
-	
+	i++;
 }
 	return 0;
 }

@@ -15,7 +15,7 @@ if ((pid = fork()) < 0){
   vari--;
   printf("Child changed\n");
 }else
-  printf("Parent did not changde\n");
+  printf("Parent did not change\n");
   printf("globa = %d vari = %d\n",globa,vari);
   exit(0);
 }

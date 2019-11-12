@@ -1,0 +1,6 @@
+before fork
+Parent did not change
+globa = 4 vari = 5
+before fork
+Child changed
+globa = 5 vari = 4

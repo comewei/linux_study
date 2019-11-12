@@ -7,12 +7,13 @@ char buf[]={"write to stdout\n"};
 int main(){
 	pid_t id;
 	FILE *fp;
+	id=fork();
 	if(write(STDOUT_FILENO,buf,sizeof(buf)-1)!=sizeof(buf)-1)
 	perror("can'write");
 	
 	fp=fopen("a.txt","w");
 	(FILE*)fprintf(fp,"HELLO\n");
-	id=fork();
+	
 	if(id<0)
 	perror("fork error");
 	if(id=0)
