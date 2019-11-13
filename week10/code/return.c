@@ -27,13 +27,16 @@ int main(int argc,char *argv[])
 	atexit(callback2);
 if((fp=fopen("test.txt","w+"))==NULL)
 {
-	perror("fail to create file\n");	
+	perror("fail to create file\n");
+	//return -1;	
 }
 if(fputs(buf,fp)==EOF)
 {
 	perror("fail to fputs file\n");
+	//return -1;
 }
-	printf("test message!");
+	printf("-------running in main!-------\n");
+	printf("printf use line buffer\n");
 	//exit(0);
 	//_exit(0);
 	return 0;

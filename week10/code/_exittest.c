@@ -33,7 +33,8 @@ if(fputs(buf,fp)==EOF)
 {
 	perror("fail to fputs file\n");
 }
-	printf("test message!");
+	printf("test message!\n");
+	printf("printf use line buffer");
 	//exit(0);
 	_exit(0);
 }
