@@ -8,7 +8,7 @@ void pr_exit(int status,pid_t pid)
 	printf("process %d normal termination,exit sattus =%d\n",pid,WEXITSTATUS(status));
 	else if(WIFSIGNALED(status))
 	{
-	sig=WTERMISG(status);
+	sig=WTERMSIG(status);
 	printf("process %d abnormal termination,signal number =%d %s:\n",pid,sig,
 	#ifdef WCOREDUMP
 			WCOREDUMP(status)?"(core file genenrated)":"");
@@ -20,7 +20,7 @@ void pr_exit(int status,pid_t pid)
 	else if(WIFSTOPPED(status))
 	{
 	sig=WSTOPSIG(status);
-	printf("process %d stopped, siganle number=%d:\n",pid,sig);
+	printf("process %d stopped, signal number=%d:\n",pid,sig);
 	psignal(sig,"");
 	}
 }
