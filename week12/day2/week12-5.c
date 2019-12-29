@@ -19,6 +19,7 @@ int main()
 	{
 		printf("[child]:pid=%d,ppid=%d\n",getpid(),getppid());
 		close(fd[0]);
+		sleep(100);
 		exit(0);
 	}
 	else

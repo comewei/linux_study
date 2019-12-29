@@ -29,13 +29,13 @@ int main()
 	{
 		close(fd[0]);
 		sprintf(rbuf,"1");
-		for(int i=0;i<65537;i++)
+		for(int i=0;i<1;i++)
 			write(fd[1],rbuf,sizeof(rbuf));	
 		close(fd[1]);
 		exit(0);
 	}
 	else{
-	wait(NULL);
+	//wait(NULL);
 	close(fd[1]);
 	while(1)
 	{

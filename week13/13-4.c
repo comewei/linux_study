@@ -13,10 +13,10 @@ int main()
 	act.sa_handler=ctrl_c;
 	sigemptyset(&act.sa_mask);
 	act.sa_flags=0;
-	if(sigaction(SIGINT,&act,NULL)<0)
+	if(sigaction(SIGQUIT,&act,NULL)<0)
 	{
 		fprintf(stderr,"Install Signal Action Error:%s\n",strerror(errno));
-	exit(1);
+		exit(1);
 	}
 	printf("process id is %d \n0",getpid());
 	while(1);
